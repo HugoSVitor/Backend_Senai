@@ -1,0 +1,33 @@
+Desafio {
+
+    inteiro idade 
+
+    Definir_categoria_pela_idade {
+        escrever("Insira sua idade")
+        leia (idade)
+        
+        se (idade < 8)
+        {
+            escrever("Você faz parte da categoria Infantil A");
+        }
+
+        se (idade < 11)
+        {
+            escrever("Você faz parte da categoria Infantil B");
+        }
+
+        se (idade < 14)
+        {
+            escrever("Você faz parte da categoria Juvenil A");
+        }
+
+        se (idade < 18)
+            {
+            escrever("Você faz parte da categoria Juvenil B");
+        }
+
+        se (idade > 17)
+        {
+            escrever("Você faz parte da categoria Sênior");
+        }
+    }

@@ -1,0 +1,19 @@
+Atividade_2 {
+
+    inteiro anoDeNacismento
+    inteiro anoAtual
+    inteiro idadePessoa
+    inteiro idadeSemana
+
+    funcao_calcular_idade {
+        leia (anoDeNacismento)
+        anoAtual = DateTimeCalendario.hora_atual.ano
+
+        idadePessoa = anoAtual - anoDeNacismento
+        idadeSemana = idadePessoa * 52
+
+        escrever ("Sua idade é: " + idadePessoa)
+        escrever ("Sua idade em semanas é: " + idadeSemana)
+    }
+
+}

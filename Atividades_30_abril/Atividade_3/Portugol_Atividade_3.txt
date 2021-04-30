@@ -1,0 +1,35 @@
+Atividade_3 {
+
+    inteiro salarioAtual
+    inteiro numeroPorcentagem
+    inteiro adicaoSalario
+    inteiro novoSalario
+    
+    Mostrar_novo_salario{
+        escrever (Qual seu salário atual?)
+        leia (salarioAtual)
+        
+        se (salarioAtual > 500)
+        {
+            escrever ("Você não possui o direito ao aumento! :(")
+        }
+        
+        se (salarioAtual < 500)
+        {
+            numeroPorcentagem = 30 * salarioAtual;
+            adicaoSalario = numeroPorcentagem / 100;
+            novoSalario = adicaoSalario + salarioAtual;
+
+            escrever ("Seu novo salário é de: " + novoSalario)
+        }
+
+        se (salarioAtual == 500)
+        {
+            numeroPorcentagem = 30 * salarioAtual;
+            adicaoSalario = numeroPorcentagem / 100;
+            novoSalario = adicaoSalario + salarioAtual;
+
+            escrever ("Seu novo salário é de: " + novoSalario)
+        }
+    }
+}

@@ -1,0 +1,23 @@
+ Calcular_idade_pesssoas{
+
+    inteiro idadePessoas
+    inteiro idadeMinutos
+    inteiro idadeHoras
+    inteiro idadeDias
+    inteiro idadeMeses
+
+    funcao inicio() {
+       escrever {"Qual é a sua idade?"}
+       leia (idadePessoas)
+    
+       idadeMeses = idadePessoas * 12
+       idadeDias = idadePessoas * 365
+       idadeHoras = idadeDias * 24
+       idadeMinutos = idadeHoras * 60
+  
+       escreva{"Sua idade em minutos é: " + idadeMinutos}
+       escreva{"Sua idade em horas é: " + idadeHoras}
+       escreva{"Sua idade em dias é: " + idadeDias}
+       escreva{"Sua idade em meses é: " + idadeMeses}
+    }
+}
